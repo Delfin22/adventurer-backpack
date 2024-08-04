@@ -53,6 +53,7 @@ export default function App() {
         onEditItem={handleEditItem}
         onCurrentItem={setCurrentItem}
         onAddItem={handleAddItem}
+        key={currentItem?.id}
       />
       <Logo />
       <ItemDescription
